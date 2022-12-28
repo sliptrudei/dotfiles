@@ -8,3 +8,5 @@ set hlsearch
 set ruler
 set relativenumber
 set mouse=
+set splitbelow
+set splitright
