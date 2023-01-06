@@ -7,4 +7,5 @@ fi
 [ -f /etc/xprofile ] && . /etc/xprofile
 [ -f ~/.xprofile ] && . ~/.xprofile
 
-exec dwm
+while type dwm >/dev/null ; do dwm && continue || break; done
+#exec dwm
